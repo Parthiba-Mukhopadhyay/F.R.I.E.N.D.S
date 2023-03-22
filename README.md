@@ -1,2 +1,2 @@
 # F.R.I.E.N.D.S.
-This is made as a part of GOOGLE Solution Challenge to solve the UN sustainability goals.
+This is made as a part of Google Solution Challenge 2023 to solve the UN sustainability goals.
