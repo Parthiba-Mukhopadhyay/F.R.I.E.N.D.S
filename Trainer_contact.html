@@ -1,347 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
 
-<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-<title>Trainer Contact</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<style type="text/css">
-    	body{margin-top:20px;
-background-color:#eee;
-}
-.card {
-    margin-bottom: 24px;
-    box-shadow: 0 2px 3px #e4e8f0;
-}
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #eff0f2;
-    border-radius: 1rem;
-}
-.avatar-md {
-    height: 4rem;
-    width: 4rem;
-}
-.rounded-circle {
-    border-radius: 50%!important;
-}
-.img-thumbnail {
-    padding: 0.25rem;
-    background-color: #f1f3f7;
-    border: 1px solid #eff0f2;
-    border-radius: 0.75rem;
-}
-.avatar-title {
-    align-items: center;
-    background-color: #3b76e1;
-    color: #fff;
-    display: flex;
-    font-weight: 500;
-    height: 100%;
-    justify-content: center;
-    width: 100%;
-}
-.bg-soft-primary {
-    background-color: rgba(59,118,225,.25)!important;
-}
-a {
-    text-decoration: none!important;
-}
-.badge-soft-danger {
-    color: #f56e6e !important;
-    background-color: rgba(245,110,110,.1);
-}
-.badge-soft-success {
-    color: #63ad6f !important;
-    background-color: rgba(99,173,111,.1);
-}
-.mb-0 {
-    margin-bottom: 0!important;
-}
-.badge {
-    display: inline-block;
-    padding: 0.25em 0.6em;
-    font-size: 75%;
-    font-weight: 500;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.75rem;
-}
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>Trainer Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            margin-top: 20px;
+            background-color: #eee;
+        }
 
+        .card {
+            margin-bottom: 24px;
+            box-shadow: 0 2px 3px #e4e8f0;
+        }
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid #eff0f2;
+            border-radius: 1rem;
+        }
+
+        .avatar-md {
+            height: 4rem;
+            width: 4rem;
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .img-thumbnail {
+            padding: 0.25rem;
+            background-color: #f1f3f7;
+            border: 1px solid #eff0f2;
+            border-radius: 0.75rem;
+        }
+
+        .avatar-title {
+            align-items: center;
+            background-color: #3b76e1;
+            color: #fff;
+            display: flex;
+            font-weight: 500;
+            height: 100%;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .bg-soft-primary {
+            background-color: rgba(59, 118, 225, .25) !important;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        .badge-soft-danger {
+            color: #f56e6e !important;
+            background-color: rgba(245, 110, 110, .1);
+        }
+
+        .badge-soft-success {
+            color: #63ad6f !important;
+            background-color: rgba(99, 173, 111, .1);
+        }
+
+        .mb-0 {
+            margin-bottom: 0 !important;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25em 0.6em;
+            font-size: 75%;
+            font-weight: 500;
+            line-height: 1;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 0.75rem;
+        }
     </style>
 </head>
+
 <body>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
-<div class="container">
-<div class="row align-items-center">
-<div class="col-md-6">
-<div class="mb-3">
-<h5 class="card-title">Trainers<span class="text-muted fw-normal ms-2">(834)</span></h5>
-</div>
-</div>
-<div class="col-md-6">
-<div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
-<div>
-<ul class="nav nav-pills">
-<li class="nav-item">
-<a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="List"><i class="bx bx-list-ul"></i></a>
-</li>
-<li class="nav-item">
-<a aria-current="page" href="#" class="router-link-active router-link-exact-active nav-link active" data-bs-toggle="tooltip" data-bs-placement="top" title="Grid"><i class="bx bx-grid-alt"></i></a>
-</li>
-</ul>
-</div>
-<div>
-<a href="#" data-bs-toggle="modal" data-bs-target=".add-new" class="btn btn-primary"><i class="bx bx-plus me-1"></i> Add New</a>
-</div>
-<div class="dropdown">
-<a class="btn btn-link text-muted py-1 font-size-16 shadow-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-horizontal-rounded"></i></a>
-<ul class="dropdown-menu dropdown-menu-end">
-<li><a class="dropdown-item" href="#">Filter By Rating</a></li>
-<li><a class="dropdown-item" href="#">Filter By Location</a></li>
-<li><a class="dropdown-item" href="#">Filter by Fees</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-md rounded-circle img-thumbnail" /></div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Phyllis Gatlin</a></h5>
-<span class="badge badge-soft-success mb-0"> Dog Trainer</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
-<p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 070 2860 5375</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="55053d2c39393c26123421393c3b1526252c7b363a38">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 52 Ilchester MYBSTER 9WX</p>
-</div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" class="avatar-md rounded-circle img-thumbnail" /></div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">James Nix</a></h5>
-<span class="badge badge-soft-success mb-0">Bird Vocalist</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
-<p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 046 5685 6969</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="df95beb2baac91b6a79facafa6f1bcb0b2">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 5 Boar Lane SELLING 2LG</p>
- </div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div><img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" class="avatar-md rounded-circle img-thumbnail" /></div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Darlene Smith</a></h5>
-<span class="badge badge-soft-danger mb-0">Cat Trainer</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
-<p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 012 6587 1236</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c783a6b5aba2a9a294aaaeb3af87b4b7bee9a4a8aa">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 57 Guildry Street GAMRIE</p>
-</div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div class="avatar-md">
-<div class="avatar-title bg-soft-primary text-primary display-6 m-0 rounded-circle"><i class="bx bxs-user-circle"></i></div>
-</div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">William Swift</a></h5>
-<span class="badge badge-soft-danger mb-0">Dog Trainer</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
-<p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 012 6587 1236</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fdaa949191949c90ae8a949b89bd8e8d84d39e">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 80 South Street MONKW</p>
-</div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div class="avatar-md">
-<div class="avatar-title bg-soft-primary text-primary display-6 m-0 rounded-circle"><i class="bx bxs-user-circle"></i></div>
-</div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Kevin West</a></h5>
-<span class="badge badge-soft-success mb-0">Underwater Specialist</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
-<p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 052 6524 9896</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1f547a697671487a6c6b5f6c6f66317c7072">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 88 Tadcaster PINCHBECK</p>
-</div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div><img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="avatar-md rounded-circle img-thumbnail" /></div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Tommy Hayes</a></h5>
-<span class="badge badge-soft-danger mb-0">Dog Trainer</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
-<p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 065 2563 6587</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="92c6fdffffebdaf3ebf7e1d2e1e2ebbcf1fdff">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 5 Boar Lane SELLING 2LG</p>
-</div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div><img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="" class="avatar-md rounded-circle img-thumbnail" /></div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Diana Owens</a></h5>
-<span class="badge badge-soft-danger mb-0">Bird Trainer</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
-<p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 087 6321 3235</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="14507d757a755b63717a675467646d3a777b79">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 52 Ilchester MYBSTER 9WX</p>
-</div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-sm-6">
-<div class="card">
-<div class="card-body">
-<div class="dropdown float-end">
-</div>
-<div class="d-flex align-items-center">
-<div><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" class="avatar-md rounded-circle img-thumbnail" /></div>
-<div class="flex-1 ms-3">
-<h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Paul Sanchez</a></h5>
-<span class="badge badge-soft-success mb-0">Cat Trainer</span>
-</div>
-</div>
-<div class="mt-3 pt-1">
- <p class="text-muted mb-0"><i class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 021 0125 5689</p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9bdff2faf5fad4ecfef5e8dbe8ebe2b5f8f4f6">[email&#160;protected]</a></p>
-<p class="text-muted mb-0 mt-2"><i class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 80 South Street MONKW</p>
-</div>
-<div class="d-flex gap-2 pt-4">
-<button type="button" class="btn btn-soft-primary btn-sm w-50"><i class="bx bx-user me-1"></i> Profile</button>
-<button type="button" class="btn btn-primary btn-sm w-50"><i class="bx bx-message-square-dots me-1"></i> Contact</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row g-0 align-items-center pb-4">
-<div class="col-sm-6">
-<div><p class="mb-sm-0">Showing 1 to 10 of 57 entries</p></div>
-</div>
-<div class="col-sm-6">
-<div class="float-sm-end">
-<ul class="pagination mb-sm-0">
-<li class="page-item disabled">
-<a href="#" class="page-link"><i class="mdi mdi-chevron-left"></i></a>
-</li>
-<li class="page-item active"><a href="#" class="page-link">1</a></li>
-<li class="page-item"><a href="#" class="page-link">2</a></li>
-<li class="page-item"><a href="#" class="page-link">3</a></li>
-<li class="page-item"><a href="#" class="page-link">4</a></li>
-<li class="page-item"><a href="#" class="page-link">5</a></li>
-<li class="page-item">
-<a href="#" class="page-link"><i class="mdi mdi-chevron-right"></i></a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript">
-	
-</script>
+    <nav class="navbar navbar-expand-lg bg-black fixed-top" id="mainNav">
+        <div class="container align-content-sm-between">
+            <a class="navbar-brand" href="#page-top">F.R.I.E.N.D.S</a>
+            <p class="navbar-brand text-center m-auto text-light zoomable">Homes for the lovely</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Register Here</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+        integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css"
+        integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <h5 class="card-title">Trainers<span class="text-muted fw-normal ms-2">(834)</span></h5>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
+                    <div>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    title="List"><i class="bx bx-list-ul"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a aria-current="page" href="#"
+                                    class="router-link-active router-link-exact-active nav-link active"
+                                    data-bs-toggle="tooltip" data-bs-placement="top" title="Grid"><i
+                                        class="bx bx-grid-alt"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" data-bs-toggle="modal" data-bs-target=".add-new" class="btn btn-primary"><i
+                                class="bx bx-plus me-1"></i> Add New</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="btn btn-link text-muted py-1 font-size-16 shadow-none dropdown-toggle" href="#"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
+                                class="bx bx-dots-horizontal-rounded"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Filter By Rating</a></li>
+                            <li><a class="dropdown-item" href="#">Filter By Location</a></li>
+                            <li><a class="dropdown-item" href="#">Filter by Fees</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""
+                                    class="avatar-md rounded-circle img-thumbnail" /></div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Phyllis Gatlin</a></h5>
+                                <span class="badge badge-soft-success mb-0"> Dog Trainer</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 070 2860 5375
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="55053d2c39393c26123421393c3b1526252c7b363a38">[email&#160;protected]</a>
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 52
+                                Ilchester MYBSTER 9WX</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt=""
+                                    class="avatar-md rounded-circle img-thumbnail" /></div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">James Nix</a></h5>
+                                <span class="badge badge-soft-success mb-0">Bird Vocalist</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 046 5685 6969
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="df95beb2baac91b6a79facafa6f1bcb0b2">[email&#160;protected]</a></p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 5 Boar
+                                Lane SELLING 2LG</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt=""
+                                    class="avatar-md rounded-circle img-thumbnail" /></div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Darlene Smith</a></h5>
+                                <span class="badge badge-soft-danger mb-0">Cat Trainer</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 012 6587 1236
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="c783a6b5aba2a9a294aaaeb3af87b4b7bee9a4a8aa">[email&#160;protected]</a>
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 57
+                                Guildry Street GAMRIE</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-md">
+                                <div class="avatar-title bg-soft-primary text-primary display-6 m-0 rounded-circle"><i
+                                        class="bx bxs-user-circle"></i></div>
+                            </div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">William Swift</a></h5>
+                                <span class="badge badge-soft-danger mb-0">Dog Trainer</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 012 6587 1236
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="fdaa949191949c90ae8a949b89bd8e8d84d39e">[email&#160;protected]</a></p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 80
+                                South Street MONKW</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="avatar-md">
+                                <div class="avatar-title bg-soft-primary text-primary display-6 m-0 rounded-circle"><i
+                                        class="bx bxs-user-circle"></i></div>
+                            </div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Kevin West</a></h5>
+                                <span class="badge badge-soft-success mb-0">Underwater Specialist</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 052 6524 9896
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="1f547a697671487a6c6b5f6c6f66317c7072">[email&#160;protected]</a></p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 88
+                                Tadcaster PINCHBECK</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt=""
+                                    class="avatar-md rounded-circle img-thumbnail" /></div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Tommy Hayes</a></h5>
+                                <span class="badge badge-soft-danger mb-0">Dog Trainer</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 065 2563 6587
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="92c6fdffffebdaf3ebf7e1d2e1e2ebbcf1fdff">[email&#160;protected]</a></p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 5 Boar
+                                Lane SELLING 2LG</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt=""
+                                    class="avatar-md rounded-circle img-thumbnail" /></div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Diana Owens</a></h5>
+                                <span class="badge badge-soft-danger mb-0">Bird Trainer</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 087 6321 3235
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="14507d757a755b63717a675467646d3a777b79">[email&#160;protected]</a></p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 52
+                                Ilchester MYBSTER 9WX</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dropdown float-end">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt=""
+                                    class="avatar-md rounded-circle img-thumbnail" /></div>
+                            <div class="flex-1 ms-3">
+                                <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Paul Sanchez</a></h5>
+                                <span class="badge badge-soft-success mb-0">Cat Trainer</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 pt-1">
+                            <p class="text-muted mb-0"><i
+                                    class="mdi mdi-phone font-size-15 align-middle pe-2 text-primary"></i> 021 0125 5689
+                            </p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-email font-size-15 align-middle pe-2 text-primary"></i> <a
+                                    href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="9bdff2faf5fad4ecfef5e8dbe8ebe2b5f8f4f6">[email&#160;protected]</a></p>
+                            <p class="text-muted mb-0 mt-2"><i
+                                    class="mdi mdi-google-maps font-size-15 align-middle pe-2 text-primary"></i> 80
+                                South Street MONKW</p>
+                        </div>
+                        <div class="d-flex gap-2 pt-4">
+                            <button type="button" class="btn btn-soft-primary btn-sm w-50"><i
+                                    class="bx bx-user me-1"></i> Profile</button>
+                            <button type="button" class="btn btn-primary btn-sm w-50"><i
+                                    class="bx bx-message-square-dots me-1"></i> Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-0 align-items-center pb-4">
+            <div class="col-sm-6">
+                <div>
+                    <p class="mb-sm-0">Showing 1 to 10 of 57 entries</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="float-sm-end">
+                    <ul class="pagination mb-sm-0">
+                        <li class="page-item disabled">
+                            <a href="#" class="page-link"><i class="mdi mdi-chevron-left"></i></a>
+                        </li>
+                        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        <li class="page-item"><a href="#" class="page-link">4</a></li>
+                        <li class="page-item"><a href="#" class="page-link">5</a></li>
+                        <li class="page-item">
+                            <a href="#" class="page-link"><i class="mdi mdi-chevron-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer py-4">
+        <div class="container">
+          <div class="row justify-content-evenly text-black">
+            <div class="col-lg-4 text-lg-start">Copyright &copy; <strong>F.R.I.E.N.D.S</strong>. All Rights Reserved</div>
+            <div class="col-lg-4 text-lg-end">
+              <p class="link-dark text-decoration-none me-3"><strong>Contact Us:</strong> +91 9477152939/ +91 6363899566
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main><!-- End #main -->
+  
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+  
+    <div id="preloader"></div>
+  
+    <!-- Vendor JS Files -->
+    <script src="Animal/Adoption_Center/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Animal/Adoption_Center/assets/vendor/aos/aos.js"></script>
+    <script src="Animal/Adoption_Center/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="Animal/Adoption_Center/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="Animal/Adoption_Center/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="Animal/Adoption_Center/assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="Animal/Adoption_Center/assets/js/main.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
 </body>
+
 </html>
