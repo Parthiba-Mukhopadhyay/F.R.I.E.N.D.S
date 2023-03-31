@@ -33,16 +33,25 @@ So why not devise an app that would ensure the well being of such innocent creat
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="45" height="45"/>  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" alt="gcloud"  width="55" height="55"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="55" height="55" />
-          
-          
+  </p>
   
- </p>
-  
-# Salient Features of the App 
+# 📈 Salient Features of the App 
  
-Adoption Centre -
-The application will provide a platform for the users to connect with 
-adoption centres 
+ ```yaml
+ 
+Adoption Centre : Linking adoption homes to users where we can help the user looking for an animal to adopt.
+
+Pet Tracking : One can track their F.R.I.E.N.D.S using Geolocation API of Google
+
+Veterinary Services : Users can connect with Vets through the platform which provides a swift and secure way to access verified vets.
+
+Discussion Forum : Enables the user to connect with other users across the platform and share their experiences and extend a helping hand.
+
+Compatibility Checker : estimates a probable compatibility of the pet and the user based on multiple parametres like pet type , breed , user income etc.
+
+
+
+```
 
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
