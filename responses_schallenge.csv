@@ -1,6 +1,6 @@
-PET,BREED,GENDER,EXPENSES
-dog,bulldog,m,12000
-dog,bulldog,m,25000
-dog,bulldog,m,13000
-dog,bulldog,m,5000
-dog,bulldog,m,10000
+,PET,BREED,GENDER,EXPENSES
+0,dog,bulldog,m,12000
+1,dog,bulldog,m,25000
+2,dog,bulldog,m,13000
+3,dog,bulldog,m,5000
+4,dog,bulldog,m,10000

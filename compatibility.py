@@ -1,7 +1,6 @@
 import pandas as pd
 import csv
-df=pd.read_csv('/content/dataset.csv')
-print(df)
+df=pd.read_csv('./content./dataset.csv')
 
 #dropping null values
 df.dropna(how='all',axis=1,inplace=True)
@@ -10,7 +9,7 @@ df.dropna(how='all',axis=1,inplace=True)
 df.to_csv('dataset.csv',index=False)
 
 #reading the user input
-dfr=pd.read_csv('/content/responses_schallenge.csv')
+dfr=pd.read_csv('./content/responses_schallenge.csv')
 
 #converting to csv file
 dfr.to_csv('responses_schallenge.csv')
@@ -32,7 +31,8 @@ rowr=[]
 for row in csvrr:
   rowr.append(row)
 
-
+expf = 0
+expr = 0
 #comparing the data from the dataset with the one given by the user
 for x in rowf:
   for y in rowr:
@@ -48,6 +48,6 @@ conv_expr=float(expr)
 if(conv_expr<(0.5*conv_expf)):
   amount=conv_expf-conv_expr
   print('you need to invest ',amount,' more')
-  print('no compatibility,please allocate more responses for the maintenance of the pet')
+  print('no compatibility, please allocate more responses for the maintenance of the pet')
 else:
-  print('compatible,you may go ahead with the adoption!')
+  print('compatible, you may go ahead with the adoption!')
