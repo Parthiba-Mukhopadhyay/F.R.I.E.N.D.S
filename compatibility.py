@@ -1,5 +1,7 @@
 import pandas as pd
 import csv
+import streamlit as st
+
 df=pd.read_csv('./content./dataset.csv')
 
 #dropping null values
