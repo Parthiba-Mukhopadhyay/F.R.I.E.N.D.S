@@ -12,8 +12,13 @@ Animals nowadays have a significant impact in our lives may it be as our best fr
 So why not devise an app that would ensure the well being of such innocent creatures.
    
 ```
+<h1>
+ 🚀 Visit Out Website
+</h1>
 
-<h2>👨🏻‍💻 &nbsp;Run through through our Solution </h2>
+<a href="https://cute-khapse-6c44b8.netlify.app/" target="_blank" >F.R.I.E.N.D.S</a>
+
+<h1>👨🏻‍💻 &nbsp;Run through  our Solution </h1>
 
 ```yaml
 
@@ -35,6 +40,12 @@ So why not devise an app that would ensure the well being of such innocent creat
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="55" height="55" />
   </p>
   
+```yaml
+Hosted: Netlify
+Maps: Folium Package
+Pet Profile Creation : Google Forms and Google Sites
+```
+  
 # 📈 Salient Features of the App 
  
  ```yaml
@@ -48,8 +59,6 @@ Veterinary Services : Users can connect with Vets through the platform which pro
 Discussion Forum : Enables the user to connect with other users across the platform and share their experiences and extend a helping hand.
 
 Compatibility Checker : estimates a probable compatibility of the pet and the user based on multiple parametres like pet type , breed , user income etc.
-
-
 
 ```
 
