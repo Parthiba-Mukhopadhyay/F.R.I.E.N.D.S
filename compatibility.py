@@ -49,7 +49,7 @@ conv_expr=float(expr)
 #comparing the required expense and the amount the user has specified
 if(conv_expr<(0.5*conv_expf)):
   amount=conv_expf-conv_expr
-  print('you need to invest ',amount,' more')
-  print('no compatibility, please allocate more responses for the maintenance of the pet')
+  st.text('you need to invest ',amount,' more')
+  st.text('no compatibility, please allocate more responses for the maintenance of the pet')
 else:
-  print('compatible, you may go ahead with the adoption!')
+  st.text('compatible, you may go ahead with the adoption!')
