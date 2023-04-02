@@ -49,7 +49,8 @@ conv_expr=float(expr)
 #comparing the required expense and the amount the user has specified
 if(conv_expr<(0.5*conv_expf)):
   amount=conv_expf-conv_expr
-  st.text('you need to invest ',amount,' more')
-  st.text('no compatibility, please allocate more responses for the maintenance of the pet')
+  st.text_area(label='',placeholder='you need to invest more \nno compatibility, please allocate more responses for the maintenance of the pet')
+  x = st.slider('result')
 else:
-  st.text('compatible, you may go ahead with the adoption!')
+  st.text_area(label='',placeholder='compatible, you may go ahead with the adoption!')
+  x = st.slider('result')
