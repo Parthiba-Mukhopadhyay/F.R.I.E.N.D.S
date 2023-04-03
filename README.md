@@ -41,7 +41,7 @@ So why not devise an app that would ensure the well being of such innocent creat
   </p>
   
 ```yaml
-Hosted: Netlify
+Hosted: Firebase
 Maps: Folium Package
 Pet Profile Creation : Google Forms and Google Sites
 ```
