@@ -58,6 +58,9 @@ Comaptibility Checking : Streamlit
 
 <a href="https://github.com/0sigma101/CompatiblityChecker_Solch" target="_blank" >Hosting Repository for Compatibality Checker</a>
 
+### 👩🏻‍💻 Visit the Compatibility Checker Page here 👇🏻
+                                                                                
+<a href="https://0sigma101-compatiblitychecker-solch-compatibility-eonn77.streamlit.app/" target="_blank" >Compatibality Checker page</a>
   
 # 📈 Salient Features of the App 
  
