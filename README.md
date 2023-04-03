@@ -13,7 +13,7 @@ So why not devise an app that would ensure the well being of such innocent creat
    
 ```
 <h1>
- 🚀 Visit Our Website
+ 😎 Visit Out Website
 </h1>
 
 <a href="" target="_blank" >F.R.I.E.N.D.S</a>
@@ -25,7 +25,7 @@ So why not devise an app that would ensure the well being of such innocent creat
    Our target is to build a solution that will serve as an platform for one and all where animals will be taken care of without any drawbacks.
    We focus on creating a connection between all the necessary departments related to animal welfare starting from Rescue centers, Veterinary Clinics , 
    Adoption Centres to professional Training coaches as well. Our solution also gives good priority to pet lovers. We provide a community platform for pet 
-   owners to connect and share their views on an open sector.Pet owners also have the feature to track their buddies via our app which provides live tracking of pets. 
+   owners to connect and share their views to an open sector.Pet owners also have the feature to track their buddies via our app which provides live tracking of pets. 
    
    ```
    
@@ -54,6 +54,10 @@ Mailing System : Twillio SendGrid and Firebase
 Comaptibility Checking : Streamlit
 
 ```
+### 🚀 Compatibility Checker Repostory 
+
+<a href="https://github.com/0sigma101/CompatiblityChecker_Solch" target="_blank" >Hosting Repository for Compatibality Checker</a>
+
   
 # 📈 Salient Features of the App 
  
