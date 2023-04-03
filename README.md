@@ -13,10 +13,10 @@ So why not devise an app that would ensure the well being of such innocent creat
    
 ```
 <h1>
- 🚀 Visit Out Website!
+ 🚀 Visit Out Website
 </h1>
 
-<a href="https://cute-khapse-6c44b8.netlify.app/" target="_blank" >F.R.I.E.N.D.S</a>
+<a href="" target="_blank" >F.R.I.E.N.D.S</a>
 
 <h1>👨🏻‍💻 &nbsp;Run through  our Solution </h1>
 
@@ -47,6 +47,10 @@ So why not devise an app that would ensure the well being of such innocent creat
 Hosted: Firebase
 Maps: Folium Package
 Pet Profile Creation : Google Forms and Google Sites
+User Authentication and DataBase integration : Firebase
+Mailing System - Twillio SendGrid and Firebase
+Comaptibility Checking : Streamlit
+
 ```
   
 # 📈 Salient Features of the App 
