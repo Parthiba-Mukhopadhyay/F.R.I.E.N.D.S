@@ -54,7 +54,7 @@ Mailing System : Twillio SendGrid and Firebase
 Comaptibility Checking : Streamlit
 
 ```
-### 🚀 Compatibility Checker Repostory 
+### ✍️ Compatibility Checker Repostory 
 
 <a href="https://github.com/0sigma101/CompatiblityChecker_Solch" target="_blank" >Hosting Repository for Compatibality Checker</a>
 
