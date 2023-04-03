@@ -16,7 +16,7 @@ So why not devise an app that would ensure the well being of such innocent creat
  🚀 Visit Out Website
 </h1>
 
-<a href="https://cute-khapse-6c44b8.netlify.app/" target="_blank" >F.R.I.E.N.D.S</a>
+<a href="" target="_blank" >F.R.I.E.N.D.S</a>
 
 <h1>👨🏻‍💻 &nbsp;Run through  our Solution </h1>
 
@@ -33,13 +33,15 @@ So why not devise an app that would ensure the well being of such innocent creat
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="45" height="45" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" width="45" height="45"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="45" height="45" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="45" height="45"/>  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="55" height="55" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" width="55" height="55"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"  width="55" height="55" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="55" height="55" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"" width="55" height="55" />
+          
           
   </p>
   
@@ -47,6 +49,10 @@ So why not devise an app that would ensure the well being of such innocent creat
 Hosted: Firebase
 Maps: Folium Package
 Pet Profile Creation : Google Forms and Google Sites
+User Authentication and DataBase integration : Firebase
+Mailing System : Twillio SendGrid and Firebase
+Comaptibility Checking : Streamlit
+
 ```
   
 # 📈 Salient Features of the App 
@@ -65,7 +71,7 @@ Compatibility Checker : estimates a probable compatibility of the pet and the us
 
 ```
 
-<p align="left">
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
 
