@@ -21,6 +21,18 @@ So why not devise an app that would ensure the well being of such innocent creat
 <h1>
  🦾 Access our website file structure without Hosting 
 </h1>
+<h2>Install Git</h2>
+<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">Steps to Install Git</a>
+
+<h2>Clone Our Repository</h2>
+
+```bash
+
+git clone https://github.com/Parthiba-Mukhopadhyay/F.R.I.E.N.D.S.git
+
+```
+<h2>Install Live Server Extension</h2>
+
 
 <h1>👨🏻‍💻 &nbsp;Run through  our Solution </h1>
 
