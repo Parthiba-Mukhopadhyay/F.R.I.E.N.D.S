@@ -16,7 +16,7 @@ So why not devise an app that would ensure the well being of such innocent creat
  😎 Visit Out Website
 </h1>
 
-<a href="" target="_blank" >F.R.I.E.N.D.S</a>
+<a href="https://friendssolchng.firebaseapp.com/" target="_blank" >F.R.I.E.N.D.S</a>
 
 <h1>👨🏻‍💻 &nbsp;Run through  our Solution </h1>
 
