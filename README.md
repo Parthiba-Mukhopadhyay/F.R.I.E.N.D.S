@@ -18,6 +18,10 @@ So why not devise an app that would ensure the well being of such innocent creat
 
 <a href="https://friendssolchng.firebaseapp.com/" target="_blank" >F.R.I.E.N.D.S</a>
 
+<h1>
+ 🦾 Access our website file structure without Hosting 
+</h1>
+
 <h1>👨🏻‍💻 &nbsp;Run through  our Solution </h1>
 
 ```yaml
