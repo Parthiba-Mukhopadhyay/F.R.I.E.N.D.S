@@ -40,7 +40,7 @@ So why not devise an app that would ensure the well being of such innocent creat
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" width="55" height="55"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"  width="55" height="55" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="55" height="55" />
-  <img src="" width="55" height="55" />
+  <img src="GitHub-Logo.wine.svg" width="55" height="55" />
           
           
   </p>
