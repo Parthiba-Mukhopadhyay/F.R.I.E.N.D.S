@@ -33,6 +33,15 @@ git clone https://github.com/Parthiba-Mukhopadhyay/F.R.I.E.N.D.S.git
 ```
 <h2>Install Live Server Extension</h2>
 
+<a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" >install the extension</a>
+
+<h2> View the landing page on local host </h2>
+
+```yaml
+1: Right Click on Landing_page.html 
+2: Open with live server
+```
+
 
 <h1>👨🏻‍💻 &nbsp;Run through  our Solution </h1>
 
